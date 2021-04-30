@@ -81,7 +81,8 @@ const MovieBanner = ({ data }) => {
           {data.crew.map((item, indx) => (
             <div className="text-center" key={indx}>
               <img
-                src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6mVep8mmwTbVD9A6_0tAkjhiPOUikhenZnH3NGEImOX4eW2pbXJ8E-WmJcWXjcXY-bA&usqp=CAU`}
+                // src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6mVep8mmwTbVD9A6_0tAkjhiPOUikhenZnH3NGEImOX4eW2pbXJ8E-WmJcWXjcXY-bA&usqp=CAU`}
+                src={item.image_link}
                 alt={"profile default"}
                 className="rounded-circle"
                 width="100"
